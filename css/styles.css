@@ -1,0 +1,55 @@
+h1{
+  text-align: center;
+  font-size: 4em;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  /*margin-top: 50px;*/
+  padding-top: 200px;
+  font-size: 3em;
+}
+
+hr {
+  width: 600px;
+}
+
+p {
+  text-align: center;
+}
+
+.header {
+  background-image: url('../img/mountains.jpeg');
+  height:700px;
+  background-size: 100%;
+  object-fit: contain;
+  background-position: 0px;
+}
+
+.contentBlocks {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px black;
+  padding: 30px;
+}
+
+.one {
+  margin: 200px;
+}
+
+
+
+
+/*.bgimg {
+    background-image: url('../img/mountains.jpeg');
+}*/

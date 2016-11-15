@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Fauna+One');
+
+body {
+  margin: 0;
+}
+
 h1{
   text-align: center;
   font-size: 4em;
   margin-top: -10px;
+  font-family: 'Fauna One', serif;
+  font-weight: bold;
 }
 
 h2 {
   text-align: center;
-
+  font-family: 'Fauna One', serif;
 }
 
 h3{
   text-align: center;
-  /*margin-top: 50px;*/
-  padding-top: 200px;
+  padding-top: 72px;
   font-size: 3em;
   margin-bottom: -10px;
+  font-family: 'Fauna One', serif;
 }
 
 hr {
@@ -26,14 +34,19 @@ p {
 }
 
 button {
-margin-left: 900px;
-margin-top: 100px;
-height: 50px;
-background-color: #3498DB;
-border: none;
-border-radius: 5px;
-padding: 0 10px 0 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 50px;
+  background-color: #3498DB;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  font-family: 'Fauna One', serif;
+}
 
+button:hover {
+  background-color: white;
 }
 
 ul {
@@ -43,7 +56,6 @@ ul {
 li {
     display: inline;
     float: right;
-
 }
 
 li a {
@@ -56,6 +68,49 @@ li a {
 
 a:hover {
   color: #A8D0EA;
+}
+
+.wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#fff;
+}
+
+.wrap img {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+.wrap:before, .wrap:after {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    background-color: inherit;
+    padding-bottom:3%;
+}
+
+.wrap:before {
+    right: 50%;
+    -ms-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -ms-transform: skewX(45deg);
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg);
+}
+
+.wrap:after {
+    left: 50%;
+    -ms-transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -ms-transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg);
 }
 
 .logo img {
@@ -80,6 +135,8 @@ a:hover {
 }
 
 .img {
+  display: block;
+  margin: 0 auto;
   width: 150px;
   border-radius: 50%;
 
@@ -94,10 +151,3 @@ a:hover {
 .one {
   margin: 200px;
 }
-
-
-
-
-/*.bgimg {
-    background-image: url('../img/mountains.jpeg');
-}*/
